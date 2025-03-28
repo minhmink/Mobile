@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BT1</string>
+    <string name="nh_p_m_t_kh_u">Nhập mật khẩu</string>
+    <string name="nh_p_t_n_ng_i_d_ng">Nhập tên người dùng</string>
+    <string name="l_u">Lưu</string>
+    <string name="x_a">Xóa</string>
+    <string name="hi_n_th">Hiển thị</string>
+</resources>

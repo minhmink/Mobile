@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:hint="@string/nh_p_t_n_ng_i_d_ng"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:hint="@string/nh_p_m_t_kh_u"
+        android:inputType="text"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/btn_Save"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/l_u" />
+
+    <Button
+        android:id="@+id/btn_Delete"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/x_a" />
+
+    <Button
+        android:id="@+id/btn_Show"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/hi_n_th" />
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:paddingTop="10dp"
+        />
+
+</LinearLayout>
